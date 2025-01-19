@@ -2,6 +2,7 @@ import React from "react";
 import TabletImg from "./Images/Tablet.svg";
 import "./styles.css";
 
+//This Component is nologner Neccessary I have coded everything to render as conditions in one component in the signUp.js File ;-) "Peace!!"
 export default function Login() {
   return (
     <div className="LoginForm">
