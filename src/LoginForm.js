@@ -1,4 +1,5 @@
 import React from "react";
+import TabletImg from "./Images/Tablet.svg";
 import "./styles.css";
 
 export default function Login() {
@@ -16,7 +17,7 @@ export default function Login() {
             >
               <div className="featured-image mb-3">
                 <img
-                  src="Images/Tablet login-pana.svg"
+                  src={TabletImg}
                   alt=""
                   className="img-fluid;"
                   style={{ width: 250 }}
