@@ -1,4 +1,38 @@
-.App {
+* {
   font-family: sans-serif;
   text-align: center;
+  justify-content: center;
+  display: flexbox;
+}
+
+/* Contact Form Styles */
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #ff9900;
+  color: #333;
+  border-style: solid;
 }
