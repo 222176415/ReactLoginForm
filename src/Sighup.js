@@ -3,10 +3,9 @@ import React from "react";
 import SignUp from "./Images/SignUp.svg";
 
 export default function SignUI() {
-
-    function GotoLogin(){
-        
-    }
+  function GotoLogin() {
+    alert("This should Take you to Log In Page ;-)");
+  }
   return (
     <section style={{ marginTop: 100 }}>
       <div
@@ -75,7 +74,8 @@ export default function SignUI() {
                   backgroundColor: "#FFE5B4",
                   alignContent: "center",
                 }}
-                onClick={}>
+                onClick={GotoLogin}
+              >
                 Sign Up
               </button>
             </div>
