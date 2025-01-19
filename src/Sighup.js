@@ -1,8 +1,8 @@
-import "styles.css";
+import "./styles.css";
 import React from "react";
-import SignUp from "./Images/Tablet.svg";
+import SignUp from "./Images/SignUp.svg";
 
-export default function SignUp() {
+export default function SignUI() {
   return (
     <section style={{ marginTop: 100 }}>
       <div
